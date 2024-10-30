@@ -36,7 +36,9 @@ variable "ondemand_instance_types" {
   default = ["t3.medium"]
 }
 
-variable "spot_instance_types" {}
+variable "spot_instance_types" {
+  default = ["t3.medium"]
+}
 variable "desired_capacity_on_demand" {}
 variable "min_capacity_on_demand" {}
 variable "max_capacity_on_demand" {}
